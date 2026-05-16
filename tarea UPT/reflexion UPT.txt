@@ -1,0 +1,6 @@
+1. ¿Qué partes de tu prompt funcionaron bien y por qué?
+la parte en donde especifico que partes de la pagina web voy a querer incluir ya que es muy especifica y detallada 
+2. ¿Qué tuvo que corregir o mejorar después de ver el primer resultado?
+nada la IA hizo lo que le pedi y lo hizo segun lo que yo esperaba 
+3. ¿Qué aprendiste sobre la importancia del detalle en un prompt?
+que al saberlo utilizar muy bien puedes lograr resultados muy precisos sobre lo que quieres
