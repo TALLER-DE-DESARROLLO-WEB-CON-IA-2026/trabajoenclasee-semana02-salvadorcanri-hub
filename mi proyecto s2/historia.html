@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Historia de Steam</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background:#0f172a;
+      color:white;
+      line-height:1.6;
+    }
+
+    .section{
+      padding:80px 20px;
+    }
+
+    .container{
+      max-width:1000px;
+      margin:auto;
+    }
+
+    .section-header{
+      text-align:center;
+      margin-bottom:60px;
+    }
+
+    .section-tag{
+      display:inline-block;
+      padding:6px 14px;
+      background:#1e293b;
+      border-radius:999px;
+      color:#38bdf8;
+      font-size:14px;
+      margin-bottom:15px;
+    }
+
+    .section-title{
+      font-size:42px;
+      font-weight:bold;
+    }
+
+    .timeline{
+      position:relative;
+      margin-top:40px;
+      padding-left:40px;
+      border-left:3px solid #38bdf8;
+    }
+
+    .timeline-item{
+      position:relative;
+      margin-bottom:50px;
+    }
+
+    .timeline-item::before{
+      content:"";
+      position:absolute;
+      left:-51px;
+      top:5px;
+      width:20px;
+      height:20px;
+      background:#38bdf8;
+      border-radius:50%;
+      border:4px solid #0f172a;
+    }
+
+    .timeline-year{
+      font-size:22px;
+      font-weight:bold;
+      color:#38bdf8;
+      margin-bottom:10px;
+    }
+
+    .timeline-content{
+      background:#1e293b;
+      padding:25px;
+      border-radius:14px;
+      box-shadow:0 4px 15px rgba(0,0,0,0.3);
+    }
+
+    .timeline-content h3{
+      margin-bottom:12px;
+      font-size:24px;
+    }
+
+    .timeline-content p{
+      color:#cbd5e1;
+    }
+
+    @media(max-width:768px){
+
+      .section-title{
+        font-size:32px;
+      }
+
+      .timeline{
+        padding-left:25px;
+      }
+
+      .timeline-item::before{
+        left:-36px;
+      }
+
+      .timeline-content{
+        padding:20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HISTORIA -->
+  <section class="section" id="historia">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag">Origen</span>
+        <h2 class="section-title">El nacimiento de un gigante</h2>
+      </div>
+
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <div class="timeline-year">2003</div>
+
+          <div class="timeline-content">
+            <h3>Lanzamiento de Steam</h3>
+
+            <p>
+              Valve lanza Steam inicialmente como una herramienta para distribuir
+              actualizaciones de Counter-Strike. Aunque los jugadores reaccionan
+              con escepticismo, el sistema demuestra rápidamente su utilidad.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-year">2005</div>
+
+          <div class="timeline-content">
+            <h3>Apertura a terceros</h3>
+
+            <p>
+              Steam comienza a distribuir juegos de otras compañías.
+              Grandes títulos como Doom 3 llegan a la plataforma,
+              estableciendo las bases de un ecosistema abierto.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-year">2008</div>
+
+          <div class="timeline-content">
+            <h3>Steamworks y herramientas para desarrolladores</h3>
+
+            <p>
+              Valve introduce Steamworks, un SDK gratuito con funciones
+              como logros, matchmaking, DRM y soporte online.
+              Esto impulsa enormemente el desarrollo independiente.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-year">2012</div>
+
+          <div class="timeline-content">
+            <h3>Steam Greenlight y la era indie</h3>
+
+            <p>
+              Steam Greenlight permite a los jugadores votar qué juegos
+              llegan a la tienda. Títulos como Undertale encuentran una
+              enorme visibilidad gracias a este sistema comunitario.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-year">2017</div>
+
+          <div class="timeline-content">
+            <h3>Steam Direct y madurez del mercado</h3>
+
+            <p>
+              Greenlight es reemplazado por Steam Direct. Cualquier
+              desarrollador puede publicar pagando una tarifa mínima,
+              consolidando a Steam como la plataforma de distribución
+              digital más importante del PC gaming.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
